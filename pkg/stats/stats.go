@@ -1,6 +1,6 @@
 package stats
 
-import "github.com/muhammad6661/bank/v2/pkg/types"
+import  "github.com/muhammad6661/bank/v2/pkg/types"
 
 func CategoriesAvg(payments [] types.Payment) map[types.Category]types.Money {
 
