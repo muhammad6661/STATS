@@ -2,7 +2,7 @@ package stats
 
 import "github.com/muhammad6661/bank/v2/pkg/types"
 
-func CategoriesAvg(payments []types.Payment) map[types.Category]types.Money {
+func CategoriesAvg(payments [] types.Payment) map[types.Category]types.Money {
 
 	Avg := make(map[types.Category]types.Money)
 	index := make(map[types.Category]types.Money)
