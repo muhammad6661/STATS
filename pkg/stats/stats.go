@@ -10,7 +10,7 @@ func CategoriesAvg(payments [] types.Payment) map[types.Category]types.Money {
 	for _, i := range payments {
 
 		_, key := Avg[i.Category]
-		if key == true {
+		 if key == true {
 			Avg[i.Category] += i.Amount
 			index[i.Category]++
 		} else {
